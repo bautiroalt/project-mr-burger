@@ -1,0 +1,68 @@
+footer {
+  font-weight: $text-weight;
+  background-color: #424949;
+
+  .social {
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: gray;
+      font-size: 5rem;
+      margin: 1rem;
+
+      i {
+        &:hover {
+          color: white;
+        }
+      }
+      @include mq-m {
+        margin: 0 6rem;
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    ul {
+      list-style: none;
+      text-align: center;
+
+      h4 {
+        color: orange;
+        text-align: center;
+        font-size: x-large;
+        font-weight: $text-weight;
+      }
+      li {
+        font-size: large;
+        color: gray;
+        a {
+          text-decoration: none;
+          color: gray;
+
+          .fa-whatsapp {
+            color: rgb(0, 255, 0);
+          }
+
+          &:hover {
+            color: white;
+
+            i {
+              color: white;
+            }
+          }
+
+          i {
+            color: rgb(255, 76, 76);
+            font-size: large;
+          }
+        }
+      }
+      @include mq-l {
+        text-align: left;
+      }
+    }
+  }
+}

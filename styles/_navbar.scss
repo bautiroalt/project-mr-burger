@@ -1,0 +1,29 @@
+.bars {
+  border: transparent !important;
+}
+
+.mynavbar {
+  background-color: #17202a;
+  .logo {
+    img {
+      width: 6rem;
+    }
+  }
+
+  .mylink {
+    color: white;
+    font-size: x-large;
+    padding: 2rem;
+    margin: 0 2rem;
+
+    &:hover {
+      text-decoration: underline;
+      color: orange;
+    }
+
+    &:focus {
+      color: orange;
+      text-decoration: none;
+    }
+  }
+}

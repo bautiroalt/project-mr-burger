@@ -1,0 +1,38 @@
+.swiper-container {
+  padding: 5rem 0 10rem 0;
+  background-color: #424949;
+  text-align: center;
+  H3 {
+    font-family: "Bebas Neue", sans-serif;
+    color: gray;
+    font-size: 5rem;
+  }
+
+  .swiper {
+    width: 100%;
+    .swiper-slide {
+      width: 100vw;
+
+      @include mq-m {
+        width: 50vw;
+      }
+
+      @include mq-l {
+        width: 33vw;
+      }
+
+      @include mq-xl {
+        width: 25vw;
+      }
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .swiper-pagination {
+      --swiper-pagination-color: white;
+    }
+  }
+}

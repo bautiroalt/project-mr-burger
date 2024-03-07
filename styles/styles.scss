@@ -1,0 +1,19 @@
+body,
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: orange;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "mixin";
+@import "button";
+@import "swiper";
+@import "navbar";
+@import "home";
+@import "footer";

@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body,
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: orange;
+}
+
+.mybutton {
+  padding: 1rem 2rem;
+  background-color: #6a6a6a;
+  font-size: x-large;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.mybutton:hover {
+  background-color: #808080;
+}
+.mybutton a {
+  text-decoration: none;
+  color: white;
+}
+.mybutton i {
+  display: none;
+}
+@media (min-width: 768px) {
+  .mybutton i {
+    display: inline-block;
+  }
+}
+
+.swiper-container {
+  padding: 5rem 0 10rem 0;
+  background-color: #424949;
+  text-align: center;
+}
+.swiper-container H3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: gray;
+  font-size: 5rem;
+}
+.swiper-container .swiper {
+  width: 100%;
+}
+.swiper-container .swiper .swiper-slide {
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .swiper-container .swiper .swiper-slide {
+    width: 50vw;
+  }
+}
+@media (min-width: 992px) {
+  .swiper-container .swiper .swiper-slide {
+    width: 33vw;
+  }
+}
+@media (min-width: 1200px) {
+  .swiper-container .swiper .swiper-slide {
+    width: 25vw;
+  }
+}
+.swiper-container .swiper .swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper-container .swiper .swiper-pagination {
+  --swiper-pagination-color: white;
+}
+
+.bars {
+  border: transparent !important;
+}
+
+.mynavbar {
+  background-color: #17202a;
+}
+.mynavbar .logo img {
+  width: 6rem;
+}
+.mynavbar .mylink {
+  color: white;
+  font-size: x-large;
+  padding: 2rem;
+  margin: 0 2rem;
+}
+.mynavbar .mylink:hover {
+  text-decoration: underline;
+  color: orange;
+}
+.mynavbar .mylink:focus {
+  color: orange;
+  text-decoration: none;
+}
+
+.cover-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-home {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+  height: calc(100vh - 76px);
+}
+@media (min-width: 992px) {
+  .img-home {
+    height: calc(100vh - 86px);
+  }
+}
+
+.container-fluid {
+  padding: 0 !important;
+  height: 100%;
+  position: relative;
+}
+.container-fluid h1 {
+  position: absolute;
+  color: white;
+  font-size: 8rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  z-index: 1;
+}
+
+.description {
+  margin: 5rem 0;
+  text-align: center;
+  align-self: center;
+  font-size: large;
+}
+.description h2 {
+  margin-top: 5rem;
+  font-size: xx-large;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+}
+.description p {
+  text-align: left;
+  padding: 5rem 5rem;
+}
+
+footer {
+  font-weight: bold;
+  background-color: #424949;
+}
+footer .social {
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+}
+footer .social a {
+  text-decoration: none;
+  color: gray;
+  font-size: 5rem;
+  margin: 1rem;
+}
+footer .social a i:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  footer .social a {
+    margin: 0 6rem;
+  }
+}
+footer .footer {
+  text-align: center;
+}
+footer .footer ul {
+  list-style: none;
+  text-align: center;
+}
+footer .footer ul h4 {
+  color: orange;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+footer .footer ul li {
+  font-size: large;
+  color: gray;
+}
+footer .footer ul li a {
+  text-decoration: none;
+  color: gray;
+}
+footer .footer ul li a .fa-whatsapp {
+  color: rgb(0, 255, 0);
+}
+footer .footer ul li a:hover {
+  color: white;
+}
+footer .footer ul li a:hover i {
+  color: white;
+}
+footer .footer ul li a i {
+  color: rgb(255, 76, 76);
+  font-size: large;
+}
+@media (min-width: 992px) {
+  footer .footer ul {
+    text-align: left;
+  }
+}/*# sourceMappingURL=styles.css.map */
