@@ -27,11 +27,10 @@ footer {
     text-align: center;
     ul {
       list-style: none;
-      text-align: center;
 
       h4 {
+        padding: 5rem 0;
         color: orange;
-        text-align: center;
         font-size: x-large;
         font-weight: $text-weight;
       }
@@ -65,4 +64,12 @@ footer {
       }
     }
   }
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: small;
+  padding: 5rem 0;
 }
